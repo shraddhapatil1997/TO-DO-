@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+.container{
+  /* border: 2px solid black; */
+  /* width: max-content; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent url("C:\Users\Admin\OneDrive\Desktop\React_Finals\To-do\to-do\public\pexels-romka- -2034373.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+/* .App {
+  display: flex;
+  justify-content: flex-end;
+} */
+/* .App .card-body .i{
+  text-align: start;
+}
+.App .deleteButton{
+  margin-right: 10px !important;
+} */
+.card-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  flex-grow: 1;
+  text-align: start;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  
+}
+
+.deleteButton {
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+}
+.card p{
+  font-weight: bold;
+}
